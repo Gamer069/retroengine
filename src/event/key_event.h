@@ -29,6 +29,18 @@ namespace RetroEngine {
         protected:
             int m_RepeatCount;
     };
+    class KeyTypedEvent : public KeyEvent {
+        public:
+            KeyTypedEvent(int keycode) : KeyEvent(keycode) {}
+
+            std::string ToString() const override {
+                std::stringstream stream;
+                stream << "KeyType: " << m_Keycode;
+                return stream.str();
+            }
+
+            TYPE(KeyTyped)
+    };
     class KeyReleasedEvent : public KeyEvent {
         public:
             KeyReleasedEvent(int keycode) : KeyEvent(keycode) {}

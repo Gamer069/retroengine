@@ -13,7 +13,7 @@ namespace RetroEngine {
         None = 0,
         WinClose, WinResize, WinFocus, WinLoseFocus, WinMove,
         Tick, Update, Render,
-        KeyPressed, KeyReleased,
+        KeyPressed, KeyReleased, KeyTyped,
         MousePress, MouseRelease, MouseMove, MouseScroll
     };
     
@@ -37,6 +37,9 @@ namespace RetroEngine {
         inline bool IsRelated(EventCategory cat) {
             return GetCategoryFlags() & cat;
         }
+
+        inline bool IsHandled() { return m_Handled; }
+
     protected:
         bool m_Handled = false;
     };

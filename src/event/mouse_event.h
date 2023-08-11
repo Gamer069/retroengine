@@ -10,6 +10,8 @@ namespace RetroEngine {
             inline float GetX() { return m_MouseX; }
             inline float GetY() { return m_MouseY; }
             
+            inline void SetPos(float x, float y) { m_MouseX = x, m_MouseY = y; }
+
             std::string ToString() const override {
                 std::stringstream stream;
                 stream << "MouseMoved: " << m_MouseX << ", " << m_MouseY;

@@ -1,8 +1,9 @@
 #pragma once
 
+#define GLFW_INCLUDE_NONE
 #include "window.h"
-
-#include "GLFW/glfw3.h"
+#include "ret_pch.h"
+#include "glfw/glfw3.h"
 
 namespace RetroEngine {
     class WindowsWindow : public Window {

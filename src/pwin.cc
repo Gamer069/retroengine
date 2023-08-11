@@ -1,9 +1,8 @@
+#include "glad/glad.h"
+#include "pwin.h"
 #include "event/app_event.h"
 #include "event/mouse_event.h"
 #include "event/key_event.h"
-#include "GLFW/glfw3.h"
-#include "ret_pch.h"
-#include "pwin.h"
 #include "logging.h"
 
 namespace RetroEngine {
@@ -41,9 +40,16 @@ namespace RetroEngine {
             
             s_Initialized = true;
         }
-        
+        #ifdef __APPLE__
+        glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+        glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+        #endif
         m_Window = glfwCreateWindow((int)properties.Width, (int)properties.Height, m_Data.Title.c_str(), nullptr, nullptr);
         glfwMakeContextCurrent(m_Window);
+        int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+        if (!status) RET_CORE_FATAL("Failed to initialize GLAD.");
         glfwSetWindowUserPointer(m_Window, &m_Data);
         SetVSync(false);
         
@@ -117,6 +123,12 @@ namespace RetroEngine {
         glfwSetCursorPosCallback(m_Window, [](GLFWwindow* win, double x, double y) {
             WindowData& data = *(WindowData*)glfwGetWindowUserPointer(win);
             MouseMovedEvent e((float)x, (float)y);
+            data.callback(e);
+        });
+
+        glfwSetCharCallback(m_Window, [](GLFWwindow* win, unsigned int keycode) {
+            WindowData& data = *(WindowData*)glfwGetWindowUserPointer(win);
+            KeyTypedEvent e(keycode);
             data.callback(e);
         });
     }
