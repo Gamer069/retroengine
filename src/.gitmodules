@@ -1,0 +1,9 @@
+[submodule "lib/spdlog"]
+	path = lib/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "lib/glfw"]
+	path = lib/glfw
+	url = https://github.com/glfw/glfw
+[submodule "lib/imgui"]
+	path = lib/imgui
+	url = https://www.github.com/ocornut/imgui
