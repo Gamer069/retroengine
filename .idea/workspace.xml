@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a162e2ad-7b7b-4d48-a93d-fd8c06d738b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/app.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/app.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/imgui/imgui_renderer.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/imgui/imgui_renderer.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/layer.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/layer.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/layer_stack.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/layer_stack.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/logging.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/logging.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/pwin.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/pwin.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/sandbox/sandbox_app.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/retroengine.dir/src/sandbox/sandbox_app.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imgui.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/install.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/glad/include/KHR/khrplatform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/glad/include/glad/glad.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/glad/src/glad.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/glfw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/imgui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/spdlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libretroengine.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandbox.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/entrypoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/event/app_event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/event/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/event/key_event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/event/mouse_event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/imgui/imgui_layer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/imgui/imgui_layer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/imgui/imgui_renderer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/imgui/imgui_renderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/layer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/layer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/layer_stack.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/layer_stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/logging.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/logging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/pwin.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/pwin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/ret_pch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/retroengine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/sandbox/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/sandbox/sandbox_app.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/window.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2VTCyfP80NV76R7PbwV8H6iXAVQ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a162e2ad-7b7b-4d48-a93d-fd8c06d738b4" name="Changes" comment="" />
+      <created>1694850940479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694850940479</updated>
+    </task>
+    <servers />
+  </component>
+</project>

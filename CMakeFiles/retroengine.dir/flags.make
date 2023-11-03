@@ -3,15 +3,15 @@
 
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-C_DEFINES = -Dretroengine_EXPORTS
+C_DEFINES = 
 
-C_INCLUDES = -I/Users/illia/desktop/Projects/@c++/retroengine/src -I/Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/Projects/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/Projects/@c++/retroengine/lib/imgui -I/Users/illia/desktop/Projects/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/Projects/@c++/retroengine/lib/GLFW/include
+C_INCLUDES = -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include
 
-C_FLAGS =  -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC
+C_FLAGS =  -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk
 
-CXX_DEFINES = -Dretroengine_EXPORTS
+CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/illia/desktop/Projects/@c++/retroengine/src -I/Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/Projects/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/Projects/@c++/retroengine/lib/imgui -I/Users/illia/desktop/Projects/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/Projects/@c++/retroengine/lib/GLFW/include
+CXX_INCLUDES = -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include
 
-CXX_FLAGS = -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC
+CXX_FLAGS = -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk
 

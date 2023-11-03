@@ -11,8 +11,16 @@ set(SRC_FILES
     src/pwin.cc
     src/layer_stack.cc
     src/layer.cc
-    src/imgui/imgui_renderer.cc
     src/imgui/imgui_layer.cc
+    src/imgui/imgui_build.cc
+    src/render/renderer.cc
+    src/render/opengl_render_context.cc
+    src/render/opengl_shader.cc
+    src/render/opengl_buf.cc
+    src/render/buf.cc
+    src/render/array.cc
+    src/render/opengl_array.cc
+	src/pinp.cc
     lib/glad/src/glad.c
     lib/imgui/imgui_draw.cpp
     lib/imgui/imgui_widgets.cpp
@@ -27,21 +35,20 @@ include_directories(
     lib/spdlog/include
     lib/glad/include
     lib/imgui
+    lib/glm
 )
+set(CMAKE_EXPORT_COMPILE_COMMANDS on)
 
 # Add GLFW as a subdirectory
 add_subdirectory(lib/GLFW)
 
 # Create a shared library (dylib)
-add_library(retroengine SHARED ${SRC_FILES})
+add_library(retroengine STATIC ${SRC_FILES}) # was shared before
 
 if (WIN32)
     target_link_libraries(retroengine glfw)
 else()
     target_link_libraries(retroengine glfw "-framework OpenGL" dl)
 endif()
-
-# Install target
-install(TARGETS retroengine DESTINATION /usr/local/lib)
 
 include(sandbox.cmake)

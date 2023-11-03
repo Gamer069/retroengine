@@ -1,7 +1,7 @@
 CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imgui_widgets.cpp \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imgui.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imconfig.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imconfig.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/float.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -85,7 +85,7 @@ CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imgui_internal.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_internal.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdio.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h \
@@ -186,4 +186,4 @@ CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/enqcmdintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/serializeintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/tsxldtrkintrin.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imstb_textedit.h
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imstb_textedit.h

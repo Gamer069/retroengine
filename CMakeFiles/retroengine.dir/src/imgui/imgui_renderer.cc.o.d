@@ -1,7 +1,7 @@
 CMakeFiles/retroengine.dir/src/imgui/imgui_renderer.cc.o: \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/imgui/imgui_renderer.cc \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imgui.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imconfig.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_renderer.cc \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imconfig.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/float.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -85,7 +85,7 @@ CMakeFiles/retroengine.dir/src/imgui/imgui_renderer.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/ret_pch.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/ret_pch.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
@@ -240,9 +240,9 @@ CMakeFiles/retroengine.dir/src/imgui/imgui_renderer.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_set \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/imgui/imgui_renderer.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_renderer.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/backends/imgui_impl_opengl3_loader.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/backends/imgui_impl_opengl3_loader.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/dlfcn.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdbool.h

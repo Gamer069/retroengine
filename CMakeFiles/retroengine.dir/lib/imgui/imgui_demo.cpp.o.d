@@ -1,7 +1,7 @@
 CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o: \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imgui_demo.cpp \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imgui.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/imgui/imconfig.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_demo.cpp \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imconfig.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/float.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \

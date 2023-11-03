@@ -3,7 +3,17 @@
 #include "spdlog/spdlog.h"
 #include "spdlog/fmt/ostr.h"
 
-#include "ret_pch.h"
+#include <iostream>
+#include <memory>
+#include <sstream>
+#include <utility>
+#include <functional>
+#include <algorithm>
+#include <string>
+#include <vector>
+#include <unordered_map>
+#include <unordered_set>
+#include <cstddef>
 
 namespace RetroEngine {
     class Logging {

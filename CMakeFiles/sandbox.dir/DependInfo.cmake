@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/illia/desktop/Projects/@c++/retroengine/src/sandbox/sandbox_app.cc" "CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o" "gcc" "CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/sandbox/sandbox_app.cc" "CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o" "gcc" "CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

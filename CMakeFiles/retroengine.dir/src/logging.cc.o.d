@@ -1,10 +1,10 @@
 CMakeFiles/retroengine.dir/src/logging.cc.o: \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/logging.cc \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/logging.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/spdlog.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/common.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/tweakme.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/null_mutex.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc \
+  /Users/illia/desktop/proj/@c++/retroengine/src/logging.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/spdlog.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/common.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/tweakme.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/null_mutex.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -173,16 +173,16 @@ CMakeFiles/retroengine.dir/src/logging.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wctype.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/fmt.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/core.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/fmt.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/core.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/format.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__errc \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/format-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/format-inl.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdarg \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__locale \
@@ -231,22 +231,22 @@ CMakeFiles/retroengine.dir/src/logging.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/common-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/registry.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/periodic_worker.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/common-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/registry.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/periodic_worker.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/periodic_worker-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/periodic_worker-inl.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_map \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__hash_table \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/registry-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/logger.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/os.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/os-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/registry-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/logger.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/os.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/os-inl.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/stat.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_s_ifmt.h \
@@ -264,29 +264,29 @@ CMakeFiles/retroengine.dir/src/logging.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/gethostuuid.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/backtracer.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/circular_q.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/backtracer.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/circular_q.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/backtracer-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/logger-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/sink.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/formatter.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/sink-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/pattern_formatter.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/pattern_formatter-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/fmt_helper.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/ansicolor_sink.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/console_globals.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/version.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/synchronous_factory.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/spdlog-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/ostr.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/ostream.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/backtracer-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/logger-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/sink.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/formatter.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/sink-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/pattern_formatter.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/pattern_formatter-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/fmt_helper.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/ansicolor_sink.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/console_globals.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/version.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/synchronous_factory.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/spdlog-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/ostr.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/ostream.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
@@ -295,9 +295,8 @@ CMakeFiles/retroengine.dir/src/logging.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/ret_pch.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_set \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/stdout_color_sinks.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/stdout_color_sinks.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h

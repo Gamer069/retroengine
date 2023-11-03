@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.27.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/illia/desktop/Projects/@c++/retroengine
+CMAKE_SOURCE_DIR = /Users/illia/desktop/proj/@c++/retroengine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/illia/desktop/Projects/@c++/retroengine
+CMAKE_BINARY_DIR = /Users/illia/desktop/proj/@c++/retroengine
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/Projects/@c++/retroengine/CMakeFiles /Users/illia/desktop/Projects/@c++/retroengine//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/proj/@c++/retroengine/CMakeFiles /Users/illia/desktop/proj/@c++/retroengine//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/Projects/@c++/retroengine/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/proj/@c++/retroengine/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -394,6 +394,30 @@ src/app.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/app.cc.s
 .PHONY : src/app.cc.s
 
+src/imgui/imgui_build.o: src/imgui/imgui_build.cc.o
+.PHONY : src/imgui/imgui_build.o
+
+# target to build an object file
+src/imgui/imgui_build.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o
+.PHONY : src/imgui/imgui_build.cc.o
+
+src/imgui/imgui_build.i: src/imgui/imgui_build.cc.i
+.PHONY : src/imgui/imgui_build.i
+
+# target to preprocess a source file
+src/imgui/imgui_build.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.i
+.PHONY : src/imgui/imgui_build.cc.i
+
+src/imgui/imgui_build.s: src/imgui/imgui_build.cc.s
+.PHONY : src/imgui/imgui_build.s
+
+# target to generate assembly for a file
+src/imgui/imgui_build.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.s
+.PHONY : src/imgui/imgui_build.cc.s
+
 src/imgui/imgui_layer.o: src/imgui/imgui_layer.cc.o
 .PHONY : src/imgui/imgui_layer.o
 
@@ -417,30 +441,6 @@ src/imgui/imgui_layer.s: src/imgui/imgui_layer.cc.s
 src/imgui/imgui_layer.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.s
 .PHONY : src/imgui/imgui_layer.cc.s
-
-src/imgui/imgui_renderer.o: src/imgui/imgui_renderer.cc.o
-.PHONY : src/imgui/imgui_renderer.o
-
-# target to build an object file
-src/imgui/imgui_renderer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/imgui/imgui_renderer.cc.o
-.PHONY : src/imgui/imgui_renderer.cc.o
-
-src/imgui/imgui_renderer.i: src/imgui/imgui_renderer.cc.i
-.PHONY : src/imgui/imgui_renderer.i
-
-# target to preprocess a source file
-src/imgui/imgui_renderer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/imgui/imgui_renderer.cc.i
-.PHONY : src/imgui/imgui_renderer.cc.i
-
-src/imgui/imgui_renderer.s: src/imgui/imgui_renderer.cc.s
-.PHONY : src/imgui/imgui_renderer.s
-
-# target to generate assembly for a file
-src/imgui/imgui_renderer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/imgui/imgui_renderer.cc.s
-.PHONY : src/imgui/imgui_renderer.cc.s
 
 src/layer.o: src/layer.cc.o
 .PHONY : src/layer.o
@@ -514,6 +514,30 @@ src/logging.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/logging.cc.s
 .PHONY : src/logging.cc.s
 
+src/pinp.o: src/pinp.cc.o
+.PHONY : src/pinp.o
+
+# target to build an object file
+src/pinp.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/pinp.cc.o
+.PHONY : src/pinp.cc.o
+
+src/pinp.i: src/pinp.cc.i
+.PHONY : src/pinp.i
+
+# target to preprocess a source file
+src/pinp.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/pinp.cc.i
+.PHONY : src/pinp.cc.i
+
+src/pinp.s: src/pinp.cc.s
+.PHONY : src/pinp.s
+
+# target to generate assembly for a file
+src/pinp.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/pinp.cc.s
+.PHONY : src/pinp.cc.s
+
 src/pwin.o: src/pwin.cc.o
 .PHONY : src/pwin.o
 
@@ -537,6 +561,174 @@ src/pwin.s: src/pwin.cc.s
 src/pwin.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/pwin.cc.s
 .PHONY : src/pwin.cc.s
+
+src/render/array.o: src/render/array.cc.o
+.PHONY : src/render/array.o
+
+# target to build an object file
+src/render/array.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/array.cc.o
+.PHONY : src/render/array.cc.o
+
+src/render/array.i: src/render/array.cc.i
+.PHONY : src/render/array.i
+
+# target to preprocess a source file
+src/render/array.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/array.cc.i
+.PHONY : src/render/array.cc.i
+
+src/render/array.s: src/render/array.cc.s
+.PHONY : src/render/array.s
+
+# target to generate assembly for a file
+src/render/array.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/array.cc.s
+.PHONY : src/render/array.cc.s
+
+src/render/buf.o: src/render/buf.cc.o
+.PHONY : src/render/buf.o
+
+# target to build an object file
+src/render/buf.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/buf.cc.o
+.PHONY : src/render/buf.cc.o
+
+src/render/buf.i: src/render/buf.cc.i
+.PHONY : src/render/buf.i
+
+# target to preprocess a source file
+src/render/buf.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/buf.cc.i
+.PHONY : src/render/buf.cc.i
+
+src/render/buf.s: src/render/buf.cc.s
+.PHONY : src/render/buf.s
+
+# target to generate assembly for a file
+src/render/buf.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/buf.cc.s
+.PHONY : src/render/buf.cc.s
+
+src/render/opengl_array.o: src/render/opengl_array.cc.o
+.PHONY : src/render/opengl_array.o
+
+# target to build an object file
+src/render/opengl_array.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o
+.PHONY : src/render/opengl_array.cc.o
+
+src/render/opengl_array.i: src/render/opengl_array.cc.i
+.PHONY : src/render/opengl_array.i
+
+# target to preprocess a source file
+src/render/opengl_array.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_array.cc.i
+.PHONY : src/render/opengl_array.cc.i
+
+src/render/opengl_array.s: src/render/opengl_array.cc.s
+.PHONY : src/render/opengl_array.s
+
+# target to generate assembly for a file
+src/render/opengl_array.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_array.cc.s
+.PHONY : src/render/opengl_array.cc.s
+
+src/render/opengl_buf.o: src/render/opengl_buf.cc.o
+.PHONY : src/render/opengl_buf.o
+
+# target to build an object file
+src/render/opengl_buf.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o
+.PHONY : src/render/opengl_buf.cc.o
+
+src/render/opengl_buf.i: src/render/opengl_buf.cc.i
+.PHONY : src/render/opengl_buf.i
+
+# target to preprocess a source file
+src/render/opengl_buf.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.i
+.PHONY : src/render/opengl_buf.cc.i
+
+src/render/opengl_buf.s: src/render/opengl_buf.cc.s
+.PHONY : src/render/opengl_buf.s
+
+# target to generate assembly for a file
+src/render/opengl_buf.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.s
+.PHONY : src/render/opengl_buf.cc.s
+
+src/render/opengl_render_context.o: src/render/opengl_render_context.cc.o
+.PHONY : src/render/opengl_render_context.o
+
+# target to build an object file
+src/render/opengl_render_context.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o
+.PHONY : src/render/opengl_render_context.cc.o
+
+src/render/opengl_render_context.i: src/render/opengl_render_context.cc.i
+.PHONY : src/render/opengl_render_context.i
+
+# target to preprocess a source file
+src/render/opengl_render_context.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.i
+.PHONY : src/render/opengl_render_context.cc.i
+
+src/render/opengl_render_context.s: src/render/opengl_render_context.cc.s
+.PHONY : src/render/opengl_render_context.s
+
+# target to generate assembly for a file
+src/render/opengl_render_context.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.s
+.PHONY : src/render/opengl_render_context.cc.s
+
+src/render/opengl_shader.o: src/render/opengl_shader.cc.o
+.PHONY : src/render/opengl_shader.o
+
+# target to build an object file
+src/render/opengl_shader.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o
+.PHONY : src/render/opengl_shader.cc.o
+
+src/render/opengl_shader.i: src/render/opengl_shader.cc.i
+.PHONY : src/render/opengl_shader.i
+
+# target to preprocess a source file
+src/render/opengl_shader.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.i
+.PHONY : src/render/opengl_shader.cc.i
+
+src/render/opengl_shader.s: src/render/opengl_shader.cc.s
+.PHONY : src/render/opengl_shader.s
+
+# target to generate assembly for a file
+src/render/opengl_shader.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.s
+.PHONY : src/render/opengl_shader.cc.s
+
+src/render/renderer.o: src/render/renderer.cc.o
+.PHONY : src/render/renderer.o
+
+# target to build an object file
+src/render/renderer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/renderer.cc.o
+.PHONY : src/render/renderer.cc.o
+
+src/render/renderer.i: src/render/renderer.cc.i
+.PHONY : src/render/renderer.i
+
+# target to preprocess a source file
+src/render/renderer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/renderer.cc.i
+.PHONY : src/render/renderer.cc.i
+
+src/render/renderer.s: src/render/renderer.cc.s
+.PHONY : src/render/renderer.s
+
+# target to generate assembly for a file
+src/render/renderer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/src/render/renderer.cc.s
+.PHONY : src/render/renderer.cc.s
 
 src/sandbox/sandbox_app.o: src/sandbox/sandbox_app.cc.o
 .PHONY : src/sandbox/sandbox_app.o
@@ -600,12 +792,12 @@ help:
 	@echo "... src/app.o"
 	@echo "... src/app.i"
 	@echo "... src/app.s"
+	@echo "... src/imgui/imgui_build.o"
+	@echo "... src/imgui/imgui_build.i"
+	@echo "... src/imgui/imgui_build.s"
 	@echo "... src/imgui/imgui_layer.o"
 	@echo "... src/imgui/imgui_layer.i"
 	@echo "... src/imgui/imgui_layer.s"
-	@echo "... src/imgui/imgui_renderer.o"
-	@echo "... src/imgui/imgui_renderer.i"
-	@echo "... src/imgui/imgui_renderer.s"
 	@echo "... src/layer.o"
 	@echo "... src/layer.i"
 	@echo "... src/layer.s"
@@ -615,9 +807,33 @@ help:
 	@echo "... src/logging.o"
 	@echo "... src/logging.i"
 	@echo "... src/logging.s"
+	@echo "... src/pinp.o"
+	@echo "... src/pinp.i"
+	@echo "... src/pinp.s"
 	@echo "... src/pwin.o"
 	@echo "... src/pwin.i"
 	@echo "... src/pwin.s"
+	@echo "... src/render/array.o"
+	@echo "... src/render/array.i"
+	@echo "... src/render/array.s"
+	@echo "... src/render/buf.o"
+	@echo "... src/render/buf.i"
+	@echo "... src/render/buf.s"
+	@echo "... src/render/opengl_array.o"
+	@echo "... src/render/opengl_array.i"
+	@echo "... src/render/opengl_array.s"
+	@echo "... src/render/opengl_buf.o"
+	@echo "... src/render/opengl_buf.i"
+	@echo "... src/render/opengl_buf.s"
+	@echo "... src/render/opengl_render_context.o"
+	@echo "... src/render/opengl_render_context.i"
+	@echo "... src/render/opengl_render_context.s"
+	@echo "... src/render/opengl_shader.o"
+	@echo "... src/render/opengl_shader.i"
+	@echo "... src/render/opengl_shader.s"
+	@echo "... src/render/renderer.o"
+	@echo "... src/render/renderer.i"
+	@echo "... src/render/renderer.s"
 	@echo "... src/sandbox/sandbox_app.o"
 	@echo "... src/sandbox/sandbox_app.i"
 	@echo "... src/sandbox/sandbox_app.s"

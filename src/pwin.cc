@@ -1,4 +1,3 @@
-#include "glad/glad.h"
 #include "pwin.h"
 #include "event/app_event.h"
 #include "event/mouse_event.h"
@@ -28,6 +27,7 @@ namespace RetroEngine {
         m_Data.Title = properties.Title;
         m_Data.Width = properties.Width;
         m_Data.Height = properties.Height;
+
         
         RET_CORE_INFO("Creating window '{0}', {1}, {2}", properties.Title, properties.Width, properties.Height);
         
@@ -40,16 +40,18 @@ namespace RetroEngine {
             
             s_Initialized = true;
         }
+        // TODO: stop using apple checks in a WindowsWindows class LMAO
         #ifdef __APPLE__
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-        glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+        glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GLFW_TRUE);
         #endif
         m_Window = glfwCreateWindow((int)properties.Width, (int)properties.Height, m_Data.Title.c_str(), nullptr, nullptr);
-        glfwMakeContextCurrent(m_Window);
-        int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-        if (!status) RET_CORE_FATAL("Failed to initialize GLAD.");
+        m_Context = new OpenGLRenderContext(m_Window);
+        m_Context->Init();
+        // belongs ^
+        // end
         glfwSetWindowUserPointer(m_Window, &m_Data);
         SetVSync(false);
         
@@ -139,7 +141,7 @@ namespace RetroEngine {
     
     void WindowsWindow::Update() {
         glfwPollEvents();
-        glfwSwapBuffers(m_Window);
+        m_Context->SwapBuffers();
     }
     
     void WindowsWindow::SetVSync(bool vsync) {

@@ -1,41 +1,11 @@
 CMakeFiles/retroengine.dir/src/pwin.cc.o: \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/pwin.cc \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/glad/include/glad/glad.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/glad/include/KHR/khrplatform.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc \
+  /Users/illia/desktop/proj/@c++/retroengine/src/pwin.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/window.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/ret_pch.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdint.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/pwin.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/window.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/ret_pch.h \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
@@ -45,12 +15,31 @@ CMakeFiles/retroengine.dir/src/pwin.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wchar.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wchar_t.h \
@@ -93,6 +82,15 @@ CMakeFiles/retroengine.dir/src/pwin.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdint.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
@@ -239,33 +237,28 @@ CMakeFiles/retroengine.dir/src/pwin.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_set \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/event/event.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/glfw/include/glfw/glfw3.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/event/app_event.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/event/mouse_event.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/event/key_event.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/src/logging.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/spdlog.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/common.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/tweakme.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/null_mutex.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/fmt.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/core.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/format.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/format-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/logging.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/spdlog.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/common.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/tweakme.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/null_mutex.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/fmt.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/core.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/format-inl.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdarg \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/common-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/registry.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/periodic_worker.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/common-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/registry.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/periodic_worker.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/periodic_worker-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/registry-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/logger.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/os.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/os-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/periodic_worker-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/registry-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/logger.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/os.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/os-inl.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/stat.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_s_ifmt.h \
@@ -283,28 +276,35 @@ CMakeFiles/retroengine.dir/src/pwin.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/gethostuuid.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/backtracer.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/circular_q.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/backtracer-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/logger-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/sink.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/formatter.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/sink-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/pattern_formatter.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/pattern_formatter-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/fmt_helper.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/ansicolor_sink.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/console_globals.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/version.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/details/synchronous_factory.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/spdlog-inl.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/ostr.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/ostream.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/backtracer.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/circular_q.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/backtracer-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/logger-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/sink.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/formatter.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/sink-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/pattern_formatter.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/pattern_formatter-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/fmt_helper.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/ansicolor_sink.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/console_globals.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/version.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/details/synchronous_factory.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/spdlog-inl.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/ostr.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/fmt/bundled/ostream.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
-  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
+  /Users/illia/desktop/proj/@c++/retroengine/src/event/event.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include/GLFW/glfw3.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_render_context.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/render/render_context.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/event/app_event.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/event/mouse_event.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/event/key_event.h

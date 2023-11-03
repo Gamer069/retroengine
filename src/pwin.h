@@ -3,7 +3,9 @@
 #define GLFW_INCLUDE_NONE
 #include "window.h"
 #include "ret_pch.h"
-#include "glfw/glfw3.h"
+#include "GLFW/glfw3.h"
+#include "render/opengl_render_context.h"
+#include "render/render_context.h"
 
 namespace RetroEngine {
     class WindowsWindow : public Window {
@@ -20,11 +22,14 @@ namespace RetroEngine {
             inline void SetEventCallback(const EventCallbackFn& callback) override { m_Data.callback = callback; }
             void SetVSync(bool vsync) override;
             bool IsVSync() const override;
+            
+            inline virtual void* GetNative() const override { return m_Window; };
         private:
             virtual void Init(const Win& properties);
             virtual void Shutdown();
         private:
             GLFWwindow* m_Window;
+            RenderContext* m_Context;
             
             struct WindowData {
                 std::string Title;

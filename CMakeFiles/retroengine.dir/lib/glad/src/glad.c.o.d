@@ -1,5 +1,5 @@
 CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o: \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/glad/src/glad.c \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/glad/src/glad.c \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdio.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
@@ -79,7 +79,7 @@ CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/strings.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/secure/_strings.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/secure/_string.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/glad/include/glad/glad.h \
-  /Users/illia/desktop/Projects/@c++/retroengine/lib/glad/include/KHR/khrplatform.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/glad/include/glad/glad.h \
+  /Users/illia/desktop/proj/@c++/retroengine/lib/glad/include/KHR/khrplatform.h \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/dlfcn.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdbool.h
