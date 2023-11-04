@@ -1,25 +1,23 @@
-#pragma once
-
 #include "array.h"
 #include "renderer.h"
 #include "logging.h"
-#include "opengl_array.h"
+#include "opengl/opengl_array.h"
 
 namespace RetroEngine {
 	VertexArray* VertexArray::Create() {
 		switch (Renderer::GetAPI()) {
-          	case RenderAPI::None: {
+          	case RenderAPI::API::None: {
             	RET_CORE_FATAL("The renderer for the Render API \"None\" is currently not supported: use a different api before this one gets implemented");
             	return nullptr;
           	}
-          	case RenderAPI::OpenGL: {
+          	case RenderAPI::API::OpenGL: {
             	return new OpenGLVertexArray();
           	};
-          	case RenderAPI::Vulkan: {
+          	case RenderAPI::API::Vulkan: {
             	RET_CORE_FATAL("The renderer for the Render API \"Vulkan\" is currently not supported: use a different api before this one gets implemented");
             	return nullptr;
           	};
-          	case RenderAPI::DirectX: {
+          	case RenderAPI::API::DirectX: {
             	RET_CORE_FATAL("The renderer for the Render API \"DirectX\" is currently not supported: use a different api before this one gets implemented");
             	return nullptr;
           	};

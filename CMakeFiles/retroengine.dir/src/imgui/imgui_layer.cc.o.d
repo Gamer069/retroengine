@@ -305,6 +305,7 @@ CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o: \
   /Users/illia/desktop/proj/@c++/retroengine/src/event/mouse_event.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/layer.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/util/time.h \
   /Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include/GLFW/glfw3.h \
   /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.h \
   /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imconfig.h \
@@ -316,9 +317,4 @@ CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o: \
   /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/backends/imgui_impl_glfw.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/app.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.h \
-  /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.h \
-  /Users/illia/desktop/proj/@c++/retroengine/lib/glad/include/glad/glad.h \
-  /Users/illia/desktop/proj/@c++/retroengine/lib/glad/include/KHR/khrplatform.h \
-  /Users/illia/desktop/proj/@c++/retroengine/src/render/array.h \
-  /Users/illia/desktop/proj/@c++/retroengine/src/window.h \
-  /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_shader.h
+  /Users/illia/desktop/proj/@c++/retroengine/src/window.h

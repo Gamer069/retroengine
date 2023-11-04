@@ -114,10 +114,10 @@ namespace RetroEngine {
         }
         inline const std::vector<BufElement>& GetElements() const { return m_Elements; }
         inline const uint32_t GetStride() const { return m_Stride; }
-        std::vector<BufElement>::iterator begin() { return m_Elements.begin(); }
-        std::vector<BufElement>::iterator end() { return m_Elements.end(); };
+        std::vector<BufElement>::iterator begin() const { return m_Elements.begin(); };
+        std::vector<BufElement>::iterator end() const { return m_Elements.end(); };
     private:
-        std::vector<BufElement> m_Elements;
+        mutable std::vector<BufElement> m_Elements;
         uint32_t m_Stride = 0;
     };
     class VertexBuf {

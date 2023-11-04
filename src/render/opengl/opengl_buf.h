@@ -1,6 +1,6 @@
 #pragma once
 
-#include "buf.h"
+#include "render/buf.h"
 
 namespace RetroEngine {
     class OpenGLVertexBuf : public VertexBuf {

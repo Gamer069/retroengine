@@ -24,11 +24,15 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc" "CMakeFiles/retroengine.dir/src/pwin.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/pwin.cc.o.d"
   "/Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc" "CMakeFiles/retroengine.dir/src/render/array.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/array.cc.o.d"
   "/Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc" "CMakeFiles/retroengine.dir/src/render/buf.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/buf.cc.o.d"
-  "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_array.cc" "CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o.d"
-  "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_buf.cc" "CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o.d"
-  "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_render_context.cc" "CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o.d"
-  "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_shader.cc" "CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/render/cam/orthographic.cc" "CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_array.cc" "CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_buf.cc" "CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_api.cc" "CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_context.cc" "CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/render/render_api.cc" "CMakeFiles/retroengine.dir/src/render/render_api.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/render_api.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/render/render_utils.cc" "CMakeFiles/retroengine.dir/src/render/render_utils.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/render_utils.cc.o.d"
   "/Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc" "CMakeFiles/retroengine.dir/src/render/renderer.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/renderer.cc.o.d"
+  "/Users/illia/desktop/proj/@c++/retroengine/src/render/shader.cc" "CMakeFiles/retroengine.dir/src/render/shader.cc.o" "gcc" "CMakeFiles/retroengine.dir/src/render/shader.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

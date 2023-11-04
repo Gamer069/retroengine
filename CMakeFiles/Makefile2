@@ -117,12 +117,12 @@ lib/GLFW/src/clean: lib/GLFW/src/CMakeFiles/update_mappings.dir/clean
 CMakeFiles/retroengine.dir/all: lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/retroengine.dir/build.make CMakeFiles/retroengine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target retroengine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48 "Built target retroengine"
 .PHONY : CMakeFiles/retroengine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/retroengine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/proj/@c++/retroengine/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/proj/@c++/retroengine/CMakeFiles 48
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/retroengine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/proj/@c++/retroengine/CMakeFiles 0
 .PHONY : CMakeFiles/retroengine.dir/rule
@@ -144,12 +144,12 @@ CMakeFiles/sandbox.dir/all: CMakeFiles/retroengine.dir/all
 CMakeFiles/sandbox.dir/all: lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandbox.dir/build.make CMakeFiles/sandbox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=45,46 "Built target sandbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=49,50 "Built target sandbox"
 .PHONY : CMakeFiles/sandbox.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sandbox.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/proj/@c++/retroengine/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/proj/@c++/retroengine/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandbox.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/illia/desktop/proj/@c++/retroengine/CMakeFiles 0
 .PHONY : CMakeFiles/sandbox.dir/rule
@@ -222,7 +222,7 @@ lib/GLFW/src/CMakeFiles/glfw.dir/clean:
 lib/GLFW/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/GLFW/src/CMakeFiles/update_mappings.dir/build.make lib/GLFW/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/GLFW/src/CMakeFiles/update_mappings.dir/build.make lib/GLFW/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=47 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=51 "Built target update_mappings"
 .PHONY : lib/GLFW/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.

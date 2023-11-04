@@ -1,75 +1,10 @@
-module common {
-  header "/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include/spdlog/common.h"
-  export *
-}
-
 module internal {
   header "/Users/illia/Desktop/proj/@c++/retroengine/lib/glfw/src/internal.h"
   export *
 }
 
-module system_TargetConditionals [system] {
-  header "/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h"
-  export *
-}
-
-module system_algorithm [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm"
-  export *
-}
-
 module system_assert [system] {
   header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h"
-  export *
-}
-
-module system_chrono [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/chrono"
-  export *
-}
-
-module system_cstddef [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstddef"
-  export *
-}
-
-module system_cstdint [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstdint"
-  export *
-}
-
-module system_cstdio [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstdio"
-  export *
-}
-
-module system_cstring [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstring"
-  export *
-}
-
-module system_functional [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/functional"
-  export *
-}
-
-module system_initializer_list [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/initializer_list"
-  export *
-}
-
-module system_iterator [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator"
-  export *
-}
-
-module system_limits [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/limits"
-  export *
-}
-
-module system_memory [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory"
   export *
 }
 
@@ -83,28 +18,8 @@ module system_stddef [system] {
   export *
 }
 
-module system_stddef_v1 [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stddef.h"
-  export *
-}
-
-module system_stdexcept [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept"
-  export *
-}
-
 module system_stdint [system] {
   header "/Users/illia/Library/Caches/JetBrains/Fleet/language_server/jbclangd/include/stdint.h"
-  export *
-}
-
-module system_stdint_v1 [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdint.h"
-  export *
-}
-
-module system_stdio [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdio.h"
   export *
 }
 
@@ -113,40 +28,13 @@ module system_stdlib [system] {
   export *
 }
 
-module system_stdlib_v1 [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdlib.h"
-  export *
-}
-
 module system_string [system] {
   header "/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/string.h"
   export *
 }
 
-module system_string_v1 [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string"
-  export *
-}
-
-module system_strings [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/string.h"
-  header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/strings.h"
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string.h"
-  export *
-}
-
-module system_type_traits [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits"
-  export *
-}
-
 module system_types [system] {
   header "/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/types.h"
-  export *
-}
-
-module system_utility [system] {
-  header "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/utility"
   export *
 }
 

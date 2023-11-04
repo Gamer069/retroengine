@@ -303,7 +303,7 @@ CMakeFiles/retroengine.dir/src/pwin.cc.o: \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
   /Users/illia/desktop/proj/@c++/retroengine/src/event/event.h \
   /Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include/GLFW/glfw3.h \
-  /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_render_context.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_context.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/render/render_context.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/event/app_event.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/event/mouse_event.h \

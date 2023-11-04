@@ -306,14 +306,14 @@ CMakeFiles/retroengine.dir/src/pinp.cc.o: \
   /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/layer.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/event/event.h \
-  /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.h \
-  /Users/illia/desktop/proj/@c++/retroengine/lib/glad/include/glad/glad.h \
-  /Users/illia/desktop/proj/@c++/retroengine/lib/glad/include/KHR/khrplatform.h \
-  /Users/illia/desktop/proj/@c++/retroengine/src/render/array.h \
+  /Users/illia/desktop/proj/@c++/retroengine/src/util/time.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/window.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/event/app_event.h \
-  /Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include/GLFW/glfw3.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/event/key_event.h \
   /Users/illia/desktop/proj/@c++/retroengine/src/event/mouse_event.h \
-  /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_shader.h
+  /Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include/GLFW/glfw3.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/os/availability.h

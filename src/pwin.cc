@@ -50,8 +50,6 @@ namespace RetroEngine {
         m_Window = glfwCreateWindow((int)properties.Width, (int)properties.Height, m_Data.Title.c_str(), nullptr, nullptr);
         m_Context = new OpenGLRenderContext(m_Window);
         m_Context->Init();
-        // belongs ^
-        // end
         glfwSetWindowUserPointer(m_Window, &m_Data);
         SetVSync(false);
         

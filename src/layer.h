@@ -1,6 +1,7 @@
 #pragma once
 
 #include "event/event.h"
+#include "util/time.h"
 
 namespace RetroEngine {
     class Layer {
@@ -10,7 +11,7 @@ namespace RetroEngine {
             
             virtual void OnAttach() {}
             virtual void OnDetach() {}
-            virtual void OnUpdate() {}
+            virtual void OnUpdate(Time ts) {}
             virtual void OnImGuiRender() {}
             virtual void OnEvent(Event& event) {}
             

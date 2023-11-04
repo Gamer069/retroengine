@@ -69,220 +69,10 @@ include CMakeFiles/retroengine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/retroengine.dir/flags.make
 
-CMakeFiles/retroengine.dir/src/app.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/app.cc.o: src/app.cc
-CMakeFiles/retroengine.dir/src/app.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/retroengine.dir/src/app.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/app.cc.o -MF CMakeFiles/retroengine.dir/src/app.cc.o.d -o CMakeFiles/retroengine.dir/src/app.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/app.cc
-
-CMakeFiles/retroengine.dir/src/app.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/app.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/app.cc > CMakeFiles/retroengine.dir/src/app.cc.i
-
-CMakeFiles/retroengine.dir/src/app.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/app.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/app.cc -o CMakeFiles/retroengine.dir/src/app.cc.s
-
-CMakeFiles/retroengine.dir/src/logging.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/logging.cc.o: src/logging.cc
-CMakeFiles/retroengine.dir/src/logging.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/retroengine.dir/src/logging.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/logging.cc.o -MF CMakeFiles/retroengine.dir/src/logging.cc.o.d -o CMakeFiles/retroengine.dir/src/logging.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc
-
-CMakeFiles/retroengine.dir/src/logging.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/logging.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc > CMakeFiles/retroengine.dir/src/logging.cc.i
-
-CMakeFiles/retroengine.dir/src/logging.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/logging.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc -o CMakeFiles/retroengine.dir/src/logging.cc.s
-
-CMakeFiles/retroengine.dir/src/pwin.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/pwin.cc.o: src/pwin.cc
-CMakeFiles/retroengine.dir/src/pwin.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/retroengine.dir/src/pwin.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/pwin.cc.o -MF CMakeFiles/retroengine.dir/src/pwin.cc.o.d -o CMakeFiles/retroengine.dir/src/pwin.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc
-
-CMakeFiles/retroengine.dir/src/pwin.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/pwin.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc > CMakeFiles/retroengine.dir/src/pwin.cc.i
-
-CMakeFiles/retroengine.dir/src/pwin.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/pwin.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc -o CMakeFiles/retroengine.dir/src/pwin.cc.s
-
-CMakeFiles/retroengine.dir/src/layer_stack.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/layer_stack.cc.o: src/layer_stack.cc
-CMakeFiles/retroengine.dir/src/layer_stack.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/retroengine.dir/src/layer_stack.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/layer_stack.cc.o -MF CMakeFiles/retroengine.dir/src/layer_stack.cc.o.d -o CMakeFiles/retroengine.dir/src/layer_stack.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc
-
-CMakeFiles/retroengine.dir/src/layer_stack.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/layer_stack.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc > CMakeFiles/retroengine.dir/src/layer_stack.cc.i
-
-CMakeFiles/retroengine.dir/src/layer_stack.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/layer_stack.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc -o CMakeFiles/retroengine.dir/src/layer_stack.cc.s
-
-CMakeFiles/retroengine.dir/src/layer.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/layer.cc.o: src/layer.cc
-CMakeFiles/retroengine.dir/src/layer.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/retroengine.dir/src/layer.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/layer.cc.o -MF CMakeFiles/retroengine.dir/src/layer.cc.o.d -o CMakeFiles/retroengine.dir/src/layer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/layer.cc
-
-CMakeFiles/retroengine.dir/src/layer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/layer.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/layer.cc > CMakeFiles/retroengine.dir/src/layer.cc.i
-
-CMakeFiles/retroengine.dir/src/layer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/layer.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/layer.cc -o CMakeFiles/retroengine.dir/src/layer.cc.s
-
-CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o: src/imgui/imgui_layer.cc
-CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o -MF CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o.d -o CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc
-
-CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc > CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.i
-
-CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc -o CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.s
-
-CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o: src/imgui/imgui_build.cc
-CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o -MF CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o.d -o CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc
-
-CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc > CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.i
-
-CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc -o CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.s
-
-CMakeFiles/retroengine.dir/src/render/renderer.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/render/renderer.cc.o: src/render/renderer.cc
-CMakeFiles/retroengine.dir/src/render/renderer.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/retroengine.dir/src/render/renderer.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/renderer.cc.o -MF CMakeFiles/retroengine.dir/src/render/renderer.cc.o.d -o CMakeFiles/retroengine.dir/src/render/renderer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc
-
-CMakeFiles/retroengine.dir/src/render/renderer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/renderer.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc > CMakeFiles/retroengine.dir/src/render/renderer.cc.i
-
-CMakeFiles/retroengine.dir/src/render/renderer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/renderer.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc -o CMakeFiles/retroengine.dir/src/render/renderer.cc.s
-
-CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o: src/render/opengl_render_context.cc
-CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o -MF CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o.d -o CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_render_context.cc
-
-CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_render_context.cc > CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.i
-
-CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_render_context.cc -o CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.s
-
-CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o: src/render/opengl_shader.cc
-CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o -MF CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o.d -o CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_shader.cc
-
-CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_shader.cc > CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.i
-
-CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_shader.cc -o CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.s
-
-CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o: src/render/opengl_buf.cc
-CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o -MF CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o.d -o CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_buf.cc
-
-CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_buf.cc > CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.i
-
-CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_buf.cc -o CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.s
-
-CMakeFiles/retroengine.dir/src/render/buf.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/render/buf.cc.o: src/render/buf.cc
-CMakeFiles/retroengine.dir/src/render/buf.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/retroengine.dir/src/render/buf.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/buf.cc.o -MF CMakeFiles/retroengine.dir/src/render/buf.cc.o.d -o CMakeFiles/retroengine.dir/src/render/buf.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc
-
-CMakeFiles/retroengine.dir/src/render/buf.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/buf.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc > CMakeFiles/retroengine.dir/src/render/buf.cc.i
-
-CMakeFiles/retroengine.dir/src/render/buf.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/buf.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc -o CMakeFiles/retroengine.dir/src/render/buf.cc.s
-
-CMakeFiles/retroengine.dir/src/render/array.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/render/array.cc.o: src/render/array.cc
-CMakeFiles/retroengine.dir/src/render/array.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/retroengine.dir/src/render/array.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/array.cc.o -MF CMakeFiles/retroengine.dir/src/render/array.cc.o.d -o CMakeFiles/retroengine.dir/src/render/array.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc
-
-CMakeFiles/retroengine.dir/src/render/array.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/array.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc > CMakeFiles/retroengine.dir/src/render/array.cc.i
-
-CMakeFiles/retroengine.dir/src/render/array.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/array.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc -o CMakeFiles/retroengine.dir/src/render/array.cc.s
-
-CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o: src/render/opengl_array.cc
-CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o -MF CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o.d -o CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_array.cc
-
-CMakeFiles/retroengine.dir/src/render/opengl_array.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/opengl_array.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_array.cc > CMakeFiles/retroengine.dir/src/render/opengl_array.cc.i
-
-CMakeFiles/retroengine.dir/src/render/opengl_array.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/opengl_array.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_array.cc -o CMakeFiles/retroengine.dir/src/render/opengl_array.cc.s
-
-CMakeFiles/retroengine.dir/src/pinp.cc.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/src/pinp.cc.o: src/pinp.cc
-CMakeFiles/retroengine.dir/src/pinp.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/retroengine.dir/src/pinp.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/pinp.cc.o -MF CMakeFiles/retroengine.dir/src/pinp.cc.o.d -o CMakeFiles/retroengine.dir/src/pinp.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc
-
-CMakeFiles/retroengine.dir/src/pinp.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/pinp.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc > CMakeFiles/retroengine.dir/src/pinp.cc.i
-
-CMakeFiles/retroengine.dir/src/pinp.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/pinp.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc -o CMakeFiles/retroengine.dir/src/pinp.cc.s
-
 CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o: CMakeFiles/retroengine.dir/flags.make
 CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o: lib/glad/src/glad.c
 CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o -MF CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o.d -o CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/glad/src/glad.c
 
 CMakeFiles/retroengine.dir/lib/glad/src/glad.c.i: cmake_force
@@ -293,66 +83,10 @@ CMakeFiles/retroengine.dir/lib/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/retroengine.dir/lib/glad/src/glad.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/glad/src/glad.c -o CMakeFiles/retroengine.dir/lib/glad/src/glad.c.s
 
-CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o: lib/imgui/imgui_draw.cpp
-CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp > CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.i
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.s
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: lib/imgui/imgui_widgets.cpp
-CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp > CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.i
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.s
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o: lib/imgui/imgui_tables.cpp
-CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp > CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.i
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.s
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o: CMakeFiles/retroengine.dir/flags.make
-CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o: lib/imgui/imgui_demo.cpp
-CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_demo.cpp
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_demo.cpp > CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.i
-
-CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_demo.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.s
-
 CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o: CMakeFiles/retroengine.dir/flags.make
 CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o: lib/imgui/imgui.cpp
 CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.cpp
 
 CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.i: cmake_force
@@ -363,57 +97,387 @@ CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.s
 
+CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o: lib/imgui/imgui_demo.cpp
+CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_demo.cpp
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_demo.cpp > CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.i
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_demo.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.s
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o: lib/imgui/imgui_draw.cpp
+CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp > CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.i
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.s
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o: lib/imgui/imgui_tables.cpp
+CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp > CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.i
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.s
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: lib/imgui/imgui_widgets.cpp
+CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o -MF CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp > CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp -o CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/retroengine.dir/src/app.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/app.cc.o: src/app.cc
+CMakeFiles/retroengine.dir/src/app.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/retroengine.dir/src/app.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/app.cc.o -MF CMakeFiles/retroengine.dir/src/app.cc.o.d -o CMakeFiles/retroengine.dir/src/app.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/app.cc
+
+CMakeFiles/retroengine.dir/src/app.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/app.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/app.cc > CMakeFiles/retroengine.dir/src/app.cc.i
+
+CMakeFiles/retroengine.dir/src/app.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/app.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/app.cc -o CMakeFiles/retroengine.dir/src/app.cc.s
+
+CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o: src/imgui/imgui_build.cc
+CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o -MF CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o.d -o CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc
+
+CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc > CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.i
+
+CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc -o CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.s
+
+CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o: src/imgui/imgui_layer.cc
+CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o -MF CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o.d -o CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc
+
+CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc > CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.i
+
+CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc -o CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.s
+
+CMakeFiles/retroengine.dir/src/layer.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/layer.cc.o: src/layer.cc
+CMakeFiles/retroengine.dir/src/layer.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/retroengine.dir/src/layer.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/layer.cc.o -MF CMakeFiles/retroengine.dir/src/layer.cc.o.d -o CMakeFiles/retroengine.dir/src/layer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/layer.cc
+
+CMakeFiles/retroengine.dir/src/layer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/layer.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/layer.cc > CMakeFiles/retroengine.dir/src/layer.cc.i
+
+CMakeFiles/retroengine.dir/src/layer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/layer.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/layer.cc -o CMakeFiles/retroengine.dir/src/layer.cc.s
+
+CMakeFiles/retroengine.dir/src/layer_stack.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/layer_stack.cc.o: src/layer_stack.cc
+CMakeFiles/retroengine.dir/src/layer_stack.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/retroengine.dir/src/layer_stack.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/layer_stack.cc.o -MF CMakeFiles/retroengine.dir/src/layer_stack.cc.o.d -o CMakeFiles/retroengine.dir/src/layer_stack.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc
+
+CMakeFiles/retroengine.dir/src/layer_stack.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/layer_stack.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc > CMakeFiles/retroengine.dir/src/layer_stack.cc.i
+
+CMakeFiles/retroengine.dir/src/layer_stack.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/layer_stack.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc -o CMakeFiles/retroengine.dir/src/layer_stack.cc.s
+
+CMakeFiles/retroengine.dir/src/logging.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/logging.cc.o: src/logging.cc
+CMakeFiles/retroengine.dir/src/logging.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/retroengine.dir/src/logging.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/logging.cc.o -MF CMakeFiles/retroengine.dir/src/logging.cc.o.d -o CMakeFiles/retroengine.dir/src/logging.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc
+
+CMakeFiles/retroengine.dir/src/logging.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/logging.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc > CMakeFiles/retroengine.dir/src/logging.cc.i
+
+CMakeFiles/retroengine.dir/src/logging.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/logging.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc -o CMakeFiles/retroengine.dir/src/logging.cc.s
+
+CMakeFiles/retroengine.dir/src/pinp.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/pinp.cc.o: src/pinp.cc
+CMakeFiles/retroengine.dir/src/pinp.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/retroengine.dir/src/pinp.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/pinp.cc.o -MF CMakeFiles/retroengine.dir/src/pinp.cc.o.d -o CMakeFiles/retroengine.dir/src/pinp.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc
+
+CMakeFiles/retroengine.dir/src/pinp.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/pinp.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc > CMakeFiles/retroengine.dir/src/pinp.cc.i
+
+CMakeFiles/retroengine.dir/src/pinp.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/pinp.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc -o CMakeFiles/retroengine.dir/src/pinp.cc.s
+
+CMakeFiles/retroengine.dir/src/pwin.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/pwin.cc.o: src/pwin.cc
+CMakeFiles/retroengine.dir/src/pwin.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/retroengine.dir/src/pwin.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/pwin.cc.o -MF CMakeFiles/retroengine.dir/src/pwin.cc.o.d -o CMakeFiles/retroengine.dir/src/pwin.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc
+
+CMakeFiles/retroengine.dir/src/pwin.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/pwin.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc > CMakeFiles/retroengine.dir/src/pwin.cc.i
+
+CMakeFiles/retroengine.dir/src/pwin.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/pwin.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc -o CMakeFiles/retroengine.dir/src/pwin.cc.s
+
+CMakeFiles/retroengine.dir/src/render/array.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/array.cc.o: src/render/array.cc
+CMakeFiles/retroengine.dir/src/render/array.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/retroengine.dir/src/render/array.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/array.cc.o -MF CMakeFiles/retroengine.dir/src/render/array.cc.o.d -o CMakeFiles/retroengine.dir/src/render/array.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc
+
+CMakeFiles/retroengine.dir/src/render/array.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/array.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc > CMakeFiles/retroengine.dir/src/render/array.cc.i
+
+CMakeFiles/retroengine.dir/src/render/array.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/array.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc -o CMakeFiles/retroengine.dir/src/render/array.cc.s
+
+CMakeFiles/retroengine.dir/src/render/buf.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/buf.cc.o: src/render/buf.cc
+CMakeFiles/retroengine.dir/src/render/buf.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/retroengine.dir/src/render/buf.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/buf.cc.o -MF CMakeFiles/retroengine.dir/src/render/buf.cc.o.d -o CMakeFiles/retroengine.dir/src/render/buf.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc
+
+CMakeFiles/retroengine.dir/src/render/buf.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/buf.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc > CMakeFiles/retroengine.dir/src/render/buf.cc.i
+
+CMakeFiles/retroengine.dir/src/render/buf.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/buf.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc -o CMakeFiles/retroengine.dir/src/render/buf.cc.s
+
+CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o: src/render/cam/orthographic.cc
+CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o -MF CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o.d -o CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/cam/orthographic.cc
+
+CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/cam/orthographic.cc > CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.i
+
+CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/cam/orthographic.cc -o CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.s
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o: src/render/opengl/opengl_array.cc
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o -MF CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o.d -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_array.cc
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_array.cc > CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.i
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_array.cc -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.s
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o: src/render/opengl/opengl_buf.cc
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o -MF CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o.d -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_buf.cc
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_buf.cc > CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.i
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_buf.cc -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.s
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o: src/render/opengl/opengl_render_api.cc
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o -MF CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o.d -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_api.cc
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_api.cc > CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.i
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_api.cc -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.s
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o: src/render/opengl/opengl_render_context.cc
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o -MF CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o.d -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_context.cc
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_context.cc > CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.i
+
+CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_context.cc -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.s
+
+CMakeFiles/retroengine.dir/src/render/render_api.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/render_api.cc.o: src/render/render_api.cc
+CMakeFiles/retroengine.dir/src/render/render_api.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/retroengine.dir/src/render/render_api.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/render_api.cc.o -MF CMakeFiles/retroengine.dir/src/render/render_api.cc.o.d -o CMakeFiles/retroengine.dir/src/render/render_api.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/render_api.cc
+
+CMakeFiles/retroengine.dir/src/render/render_api.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/render_api.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/render_api.cc > CMakeFiles/retroengine.dir/src/render/render_api.cc.i
+
+CMakeFiles/retroengine.dir/src/render/render_api.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/render_api.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/render_api.cc -o CMakeFiles/retroengine.dir/src/render/render_api.cc.s
+
+CMakeFiles/retroengine.dir/src/render/render_utils.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/render_utils.cc.o: src/render/render_utils.cc
+CMakeFiles/retroengine.dir/src/render/render_utils.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/retroengine.dir/src/render/render_utils.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/render_utils.cc.o -MF CMakeFiles/retroengine.dir/src/render/render_utils.cc.o.d -o CMakeFiles/retroengine.dir/src/render/render_utils.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/render_utils.cc
+
+CMakeFiles/retroengine.dir/src/render/render_utils.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/render_utils.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/render_utils.cc > CMakeFiles/retroengine.dir/src/render/render_utils.cc.i
+
+CMakeFiles/retroengine.dir/src/render/render_utils.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/render_utils.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/render_utils.cc -o CMakeFiles/retroengine.dir/src/render/render_utils.cc.s
+
+CMakeFiles/retroengine.dir/src/render/renderer.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/renderer.cc.o: src/render/renderer.cc
+CMakeFiles/retroengine.dir/src/render/renderer.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/retroengine.dir/src/render/renderer.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/renderer.cc.o -MF CMakeFiles/retroengine.dir/src/render/renderer.cc.o.d -o CMakeFiles/retroengine.dir/src/render/renderer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc
+
+CMakeFiles/retroengine.dir/src/render/renderer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/renderer.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc > CMakeFiles/retroengine.dir/src/render/renderer.cc.i
+
+CMakeFiles/retroengine.dir/src/render/renderer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/renderer.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc -o CMakeFiles/retroengine.dir/src/render/renderer.cc.s
+
+CMakeFiles/retroengine.dir/src/render/shader.cc.o: CMakeFiles/retroengine.dir/flags.make
+CMakeFiles/retroengine.dir/src/render/shader.cc.o: src/render/shader.cc
+CMakeFiles/retroengine.dir/src/render/shader.cc.o: CMakeFiles/retroengine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/retroengine.dir/src/render/shader.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/retroengine.dir/src/render/shader.cc.o -MF CMakeFiles/retroengine.dir/src/render/shader.cc.o.d -o CMakeFiles/retroengine.dir/src/render/shader.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/shader.cc
+
+CMakeFiles/retroengine.dir/src/render/shader.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/retroengine.dir/src/render/shader.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/illia/desktop/proj/@c++/retroengine/src/render/shader.cc > CMakeFiles/retroengine.dir/src/render/shader.cc.i
+
+CMakeFiles/retroengine.dir/src/render/shader.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/retroengine.dir/src/render/shader.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/illia/desktop/proj/@c++/retroengine/src/render/shader.cc -o CMakeFiles/retroengine.dir/src/render/shader.cc.s
+
 # Object files for target retroengine
 retroengine_OBJECTS = \
-"CMakeFiles/retroengine.dir/src/app.cc.o" \
-"CMakeFiles/retroengine.dir/src/logging.cc.o" \
-"CMakeFiles/retroengine.dir/src/pwin.cc.o" \
-"CMakeFiles/retroengine.dir/src/layer_stack.cc.o" \
-"CMakeFiles/retroengine.dir/src/layer.cc.o" \
-"CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o" \
-"CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o" \
-"CMakeFiles/retroengine.dir/src/render/renderer.cc.o" \
-"CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o" \
-"CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o" \
-"CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o" \
-"CMakeFiles/retroengine.dir/src/render/buf.cc.o" \
-"CMakeFiles/retroengine.dir/src/render/array.cc.o" \
-"CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o" \
-"CMakeFiles/retroengine.dir/src/pinp.cc.o" \
 "CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o" \
-"CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o" \
-"CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o" \
-"CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o" \
 "CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o" \
-"CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o"
+"CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/retroengine.dir/src/app.cc.o" \
+"CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o" \
+"CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o" \
+"CMakeFiles/retroengine.dir/src/layer.cc.o" \
+"CMakeFiles/retroengine.dir/src/layer_stack.cc.o" \
+"CMakeFiles/retroengine.dir/src/logging.cc.o" \
+"CMakeFiles/retroengine.dir/src/pinp.cc.o" \
+"CMakeFiles/retroengine.dir/src/pwin.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/array.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/buf.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/render_api.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/render_utils.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/renderer.cc.o" \
+"CMakeFiles/retroengine.dir/src/render/shader.cc.o"
 
 # External object files for target retroengine
 retroengine_EXTERNAL_OBJECTS =
 
-libretroengine.a: CMakeFiles/retroengine.dir/src/app.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/logging.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/pwin.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/layer_stack.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/layer.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/render/renderer.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/render/buf.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/render/array.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o
-libretroengine.a: CMakeFiles/retroengine.dir/src/pinp.cc.o
 libretroengine.a: CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o
-libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o
-libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o
-libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o
-libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o
 libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o
+libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui_demo.cpp.o
+libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o
+libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o
+libretroengine.a: CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/app.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/layer.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/layer_stack.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/logging.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/pinp.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/pwin.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/array.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/buf.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/render_api.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/render_utils.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/renderer.cc.o
+libretroengine.a: CMakeFiles/retroengine.dir/src/render/shader.cc.o
 libretroengine.a: CMakeFiles/retroengine.dir/build.make
 libretroengine.a: CMakeFiles/retroengine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libretroengine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/illia/desktop/proj/@c++/retroengine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library libretroengine.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/retroengine.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/retroengine.dir/link.txt --verbose=$(VERBOSE)
 

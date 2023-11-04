@@ -1,117 +1,15 @@
 [
 {
   "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/app.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/app.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/app.cc",
-  "output": "CMakeFiles/retroengine.dir/src/app.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/logging.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/logging.cc",
-  "output": "CMakeFiles/retroengine.dir/src/logging.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/pwin.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc",
-  "output": "CMakeFiles/retroengine.dir/src/pwin.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/layer_stack.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc",
-  "output": "CMakeFiles/retroengine.dir/src/layer_stack.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/layer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/layer.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/layer.cc",
-  "output": "CMakeFiles/retroengine.dir/src/layer.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc",
-  "output": "CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc",
-  "output": "CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/renderer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc",
-  "output": "CMakeFiles/retroengine.dir/src/render/renderer.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_render_context.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_render_context.cc",
-  "output": "CMakeFiles/retroengine.dir/src/render/opengl_render_context.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_shader.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_shader.cc",
-  "output": "CMakeFiles/retroengine.dir/src/render/opengl_shader.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_buf.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_buf.cc",
-  "output": "CMakeFiles/retroengine.dir/src/render/opengl_buf.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/buf.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc",
-  "output": "CMakeFiles/retroengine.dir/src/render/buf.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/array.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc",
-  "output": "CMakeFiles/retroengine.dir/src/render/array.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_array.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl_array.cc",
-  "output": "CMakeFiles/retroengine.dir/src/render/opengl_array.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/pinp.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc",
-  "output": "CMakeFiles/retroengine.dir/src/pinp.cc.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
   "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include  -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/glad/src/glad.c",
   "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/glad/src/glad.c",
   "output": "CMakeFiles/retroengine.dir/lib/glad/src/glad.c.o"
 },
 {
   "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp",
-  "output": "CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp",
-  "output": "CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o"
-},
-{
-  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp",
-  "output": "CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o"
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.cpp",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.cpp",
+  "output": "CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o"
 },
 {
   "directory": "/Users/illia/desktop/proj/@c++/retroengine",
@@ -121,9 +19,135 @@
 },
 {
   "directory": "/Users/illia/desktop/proj/@c++/retroengine",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.cpp",
-  "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui.cpp",
-  "output": "CMakeFiles/retroengine.dir/lib/imgui/imgui.cpp.o"
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/retroengine.dir/lib/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/retroengine.dir/lib/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o -c /Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/lib/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/retroengine.dir/lib/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/app.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/app.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/app.cc",
+  "output": "CMakeFiles/retroengine.dir/src/app.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_build.cc",
+  "output": "CMakeFiles/retroengine.dir/src/imgui/imgui_build.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/imgui/imgui_layer.cc",
+  "output": "CMakeFiles/retroengine.dir/src/imgui/imgui_layer.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/layer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/layer.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/layer.cc",
+  "output": "CMakeFiles/retroengine.dir/src/layer.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/layer_stack.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/layer_stack.cc",
+  "output": "CMakeFiles/retroengine.dir/src/layer_stack.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/logging.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/logging.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/logging.cc",
+  "output": "CMakeFiles/retroengine.dir/src/logging.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/pinp.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/pinp.cc",
+  "output": "CMakeFiles/retroengine.dir/src/pinp.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/pwin.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/pwin.cc",
+  "output": "CMakeFiles/retroengine.dir/src/pwin.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/array.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/array.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/array.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/buf.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/buf.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/buf.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/cam/orthographic.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/cam/orthographic.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/cam/orthographic.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_array.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_array.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/opengl/opengl_array.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_buf.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_buf.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/opengl/opengl_buf.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_api.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_api.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_api.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_context.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/opengl/opengl_render_context.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/opengl/opengl_render_context.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/render_api.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/render_api.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/render_api.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/render_api.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/render_utils.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/render_utils.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/render_utils.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/render_utils.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/renderer.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/renderer.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/renderer.cc.o"
+},
+{
+  "directory": "/Users/illia/desktop/proj/@c++/retroengine",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/illia/desktop/proj/@c++/retroengine/src -I/Users/illia/desktop/proj/@c++/retroengine/lib/spdlog/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/glad/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/imgui -I/Users/illia/desktop/proj/@c++/retroengine/lib/glm -I/Users/illia/desktop/proj/@c++/retroengine/lib/glfw/include -I/Users/illia/desktop/proj/@c++/retroengine/lib/GLFW/include -std=gnu++17 -isysroot /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/retroengine.dir/src/render/shader.cc.o -c /Users/illia/desktop/proj/@c++/retroengine/src/render/shader.cc",
+  "file": "/Users/illia/desktop/proj/@c++/retroengine/src/render/shader.cc",
+  "output": "CMakeFiles/retroengine.dir/src/render/shader.cc.o"
 },
 {
   "directory": "/Users/illia/desktop/proj/@c++/retroengine",

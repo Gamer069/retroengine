@@ -4,7 +4,7 @@
 #include "window.h"
 #include "ret_pch.h"
 #include "GLFW/glfw3.h"
-#include "render/opengl_render_context.h"
+#include "render/opengl/opengl_render_context.h"
 #include "render/render_context.h"
 
 namespace RetroEngine {

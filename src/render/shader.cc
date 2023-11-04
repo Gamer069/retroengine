@@ -1,7 +1,8 @@
 #pragma once
 
-#include "opengl_shader.h"
+#include "shader.h"
 #include <glad/glad.h>
+#include <glm/gtc/type_ptr.hpp>
 
 namespace RetroEngine {
 	Shader::Shader(const std::string& vert, const std::string& frag) {
@@ -113,5 +114,9 @@ namespace RetroEngine {
 	}
 	void Shader::Unbind() const {
 		glUseProgram(0);
+	}
+	void Shader::UploadUniformMat4(const glm::mat4& mat, const char* name) {
+		GLint loc = glGetUniformLocation(m_ShaderID, name);
+    	glUniformMatrix4fv(loc, 1, GL_FALSE, glm::value_ptr(mat));      
 	}
 }

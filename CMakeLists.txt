@@ -4,29 +4,19 @@ project(RetroEngine)
 set(CMAKE_CXX_STANDARD 17)
 
 # Define source files
-set(SRC_FILES
-    src/app.cc
-    src/entrypoint.h
-    src/logging.cc
-    src/pwin.cc
-    src/layer_stack.cc
-    src/layer.cc
-    src/imgui/imgui_layer.cc
-    src/imgui/imgui_build.cc
-    src/render/renderer.cc
-    src/render/opengl_render_context.cc
-    src/render/opengl_shader.cc
-    src/render/opengl_buf.cc
-    src/render/buf.cc
-    src/render/array.cc
-    src/render/opengl_array.cc
-	src/pinp.cc
-    lib/glad/src/glad.c
-    lib/imgui/imgui_draw.cpp
-    lib/imgui/imgui_widgets.cpp
-    lib/imgui/imgui_tables.cpp
-    lib/imgui/imgui_demo.cpp
-    lib/imgui/imgui.cpp
+file(GLOB SRC_FILES
+    "src/*.cc"
+    "src/*.h"
+    "src/imgui/*.cc"
+    "src/imgui/*.h"
+    "src/render/*.cc"
+    "src/render/*.h"
+    "src/render/cam/*.cc"
+    "src/render/opengl/*.cc"
+    "src/render/opengl/*.h"
+    "src/util/*.cc"
+    "lib/glad/src/glad.c"
+    "lib/imgui/*.cpp"
 )
 
 # Add include directories

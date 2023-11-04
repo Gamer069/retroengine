@@ -49,6 +49,7 @@ CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o: src/sandbox/sandbox_app.cc 
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno \
+  /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cfloat \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
   /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
@@ -264,9 +265,180 @@ CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o: src/sandbox/sandbox_app.cc 
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdint.h \
-  lib/GLFW/include/GLFW/glfw3.h \
   lib/glad/include/KHR/khrplatform.h \
   lib/glad/include/glad/glad.h \
+  lib/glm/glm/detail/setup.hpp \
+  lib/glm/glm/detail/type_mat2x2.hpp \
+  lib/glm/glm/detail/type_mat2x3.hpp \
+  lib/glm/glm/detail/type_mat2x4.hpp \
+  lib/glm/glm/detail/type_mat3x2.hpp \
+  lib/glm/glm/detail/type_mat3x3.hpp \
+  lib/glm/glm/detail/type_mat3x4.hpp \
+  lib/glm/glm/detail/type_mat4x2.hpp \
+  lib/glm/glm/detail/type_mat4x3.hpp \
+  lib/glm/glm/detail/type_mat4x4.hpp \
+  lib/glm/glm/detail/type_vec2.hpp \
+  lib/glm/glm/detail/type_vec3.hpp \
+  lib/glm/glm/detail/type_vec4.hpp \
+  lib/glm/glm/ext/scalar_constants.hpp \
+  lib/glm/glm/ext/scalar_int_sized.hpp \
+  lib/glm/glm/ext/scalar_uint_sized.hpp \
+  lib/glm/glm/ext/vector_int2.hpp \
+  lib/glm/glm/ext/vector_int3.hpp \
+  lib/glm/glm/ext/vector_int4.hpp \
+  lib/glm/glm/ext/vector_uint2.hpp \
+  lib/glm/glm/ext/vector_uint3.hpp \
+  lib/glm/glm/ext/vector_uint4.hpp \
+  lib/glm/glm/geometric.hpp \
+  lib/glm/glm/gtc/constants.hpp \
+  lib/glm/glm/matrix.hpp \
+  lib/glm/glm/trigonometric.hpp \
+  lib/glm/glm/ext/matrix_clip_space.inl \
+  lib/glm/glm/ext/matrix_double2x2.hpp \
+  lib/glm/glm/ext/matrix_double2x2_precision.hpp \
+  lib/glm/glm/ext/matrix_double2x3.hpp \
+  lib/glm/glm/ext/matrix_double2x3_precision.hpp \
+  lib/glm/glm/ext/matrix_double2x4.hpp \
+  lib/glm/glm/ext/matrix_double2x4_precision.hpp \
+  lib/glm/glm/ext/matrix_double3x2.hpp \
+  lib/glm/glm/ext/matrix_double3x2_precision.hpp \
+  lib/glm/glm/ext/matrix_double3x3.hpp \
+  lib/glm/glm/ext/matrix_double3x3_precision.hpp \
+  lib/glm/glm/ext/matrix_double3x4.hpp \
+  lib/glm/glm/ext/matrix_double3x4_precision.hpp \
+  lib/glm/glm/ext/matrix_double4x2.hpp \
+  lib/glm/glm/ext/matrix_double4x2_precision.hpp \
+  lib/glm/glm/ext/matrix_double4x3.hpp \
+  lib/glm/glm/ext/matrix_double4x3_precision.hpp \
+  lib/glm/glm/ext/matrix_double4x4.hpp \
+  lib/glm/glm/ext/matrix_double4x4_precision.hpp \
+  lib/glm/glm/ext/matrix_float2x2.hpp \
+  lib/glm/glm/ext/matrix_float2x2_precision.hpp \
+  lib/glm/glm/ext/matrix_float2x3.hpp \
+  lib/glm/glm/ext/matrix_float2x3_precision.hpp \
+  lib/glm/glm/ext/matrix_float2x4.hpp \
+  lib/glm/glm/ext/matrix_float2x4_precision.hpp \
+  lib/glm/glm/ext/matrix_float3x2.hpp \
+  lib/glm/glm/ext/matrix_float3x2_precision.hpp \
+  lib/glm/glm/ext/matrix_float3x3.hpp \
+  lib/glm/glm/ext/matrix_float3x3_precision.hpp \
+  lib/glm/glm/ext/matrix_float3x4.hpp \
+  lib/glm/glm/ext/matrix_float3x4_precision.hpp \
+  lib/glm/glm/ext/matrix_float4x2.hpp \
+  lib/glm/glm/ext/matrix_float4x2_precision.hpp \
+  lib/glm/glm/ext/matrix_float4x3.hpp \
+  lib/glm/glm/ext/matrix_float4x3_precision.hpp \
+  lib/glm/glm/ext/matrix_float4x4.hpp \
+  lib/glm/glm/ext/matrix_float4x4_precision.hpp \
+  lib/glm/glm/ext/matrix_projection.inl \
+  lib/glm/glm/ext/matrix_transform.inl \
+  lib/glm/glm/ext/scalar_constants.inl \
+  lib/glm/glm/ext/vector_bool2.hpp \
+  lib/glm/glm/ext/vector_bool2_precision.hpp \
+  lib/glm/glm/ext/vector_bool3.hpp \
+  lib/glm/glm/ext/vector_bool3_precision.hpp \
+  lib/glm/glm/ext/vector_bool4.hpp \
+  lib/glm/glm/ext/vector_bool4_precision.hpp \
+  lib/glm/glm/ext/vector_double2.hpp \
+  lib/glm/glm/ext/vector_double2_precision.hpp \
+  lib/glm/glm/ext/vector_double3.hpp \
+  lib/glm/glm/ext/vector_double3_precision.hpp \
+  lib/glm/glm/ext/vector_double4.hpp \
+  lib/glm/glm/ext/vector_double4_precision.hpp \
+  lib/glm/glm/ext/vector_float2.hpp \
+  lib/glm/glm/ext/vector_float2_precision.hpp \
+  lib/glm/glm/ext/vector_float3.hpp \
+  lib/glm/glm/ext/vector_float3_precision.hpp \
+  lib/glm/glm/ext/vector_float4.hpp \
+  lib/glm/glm/ext/vector_float4_precision.hpp \
+  lib/glm/glm/ext/vector_int2.hpp \
+  lib/glm/glm/ext/vector_int2_sized.hpp \
+  lib/glm/glm/ext/vector_int3.hpp \
+  lib/glm/glm/ext/vector_int3_sized.hpp \
+  lib/glm/glm/ext/vector_int4.hpp \
+  lib/glm/glm/ext/vector_int4_sized.hpp \
+  lib/glm/glm/ext/vector_uint2.hpp \
+  lib/glm/glm/ext/vector_uint2_sized.hpp \
+  lib/glm/glm/ext/vector_uint3.hpp \
+  lib/glm/glm/ext/vector_uint3_sized.hpp \
+  lib/glm/glm/ext/vector_uint4.hpp \
+  lib/glm/glm/ext/vector_uint4_sized.hpp \
+  lib/glm/glm/common.hpp \
+  lib/glm/glm/common.hpp \
+  lib/glm/glm/exponential.hpp \
+  lib/glm/glm/geometric.hpp \
+  lib/glm/glm/matrix.hpp \
+  lib/glm/glm/simd/platform.h \
+  lib/glm/glm/vector_relational.hpp \
+  lib/glm/glm/detail/compute_vector_relational.hpp \
+  lib/glm/glm/detail/_fixes.hpp \
+  lib/glm/glm/detail/_vectorize.hpp \
+  lib/glm/glm/detail/compute_common.hpp \
+  lib/glm/glm/detail/compute_vector_relational.hpp \
+  lib/glm/glm/detail/func_common.inl \
+  lib/glm/glm/detail/func_exponential.inl \
+  lib/glm/glm/detail/func_geometric.inl \
+  lib/glm/glm/detail/func_integer.inl \
+  lib/glm/glm/detail/func_matrix.inl \
+  lib/glm/glm/detail/func_packing.inl \
+  lib/glm/glm/detail/func_trigonometric.inl \
+  lib/glm/glm/detail/func_vector_relational.inl \
+  lib/glm/glm/detail/qualifier.hpp \
+  lib/glm/glm/detail/setup.hpp \
+  lib/glm/glm/detail/type_half.hpp \
+  lib/glm/glm/detail/type_half.inl \
+  lib/glm/glm/detail/type_mat2x2.inl \
+  lib/glm/glm/detail/type_mat2x3.inl \
+  lib/glm/glm/detail/type_mat2x4.inl \
+  lib/glm/glm/detail/type_mat3x2.inl \
+  lib/glm/glm/detail/type_mat3x3.inl \
+  lib/glm/glm/detail/type_mat3x4.inl \
+  lib/glm/glm/detail/type_mat4x2.inl \
+  lib/glm/glm/detail/type_mat4x3.inl \
+  lib/glm/glm/detail/type_mat4x4.inl \
+  lib/glm/glm/detail/type_vec1.hpp \
+  lib/glm/glm/detail/type_vec1.inl \
+  lib/glm/glm/detail/type_vec2.hpp \
+  lib/glm/glm/detail/type_vec2.inl \
+  lib/glm/glm/detail/type_vec3.hpp \
+  lib/glm/glm/detail/type_vec3.inl \
+  lib/glm/glm/detail/type_vec4.hpp \
+  lib/glm/glm/detail/type_vec4.inl \
+  lib/glm/glm/exponential.hpp \
+  lib/glm/glm/fwd.hpp \
+  lib/glm/glm/geometric.hpp \
+  lib/glm/glm/glm.hpp \
+  lib/glm/glm/ext/matrix_clip_space.hpp \
+  lib/glm/glm/ext/matrix_projection.hpp \
+  lib/glm/glm/ext/matrix_transform.hpp \
+  lib/glm/glm/ext/scalar_constants.hpp \
+  lib/glm/glm/geometric.hpp \
+  lib/glm/glm/mat4x4.hpp \
+  lib/glm/glm/matrix.hpp \
+  lib/glm/glm/trigonometric.hpp \
+  lib/glm/glm/vec2.hpp \
+  lib/glm/glm/vec3.hpp \
+  lib/glm/glm/vec4.hpp \
+  lib/glm/glm/gtc/constants.inl \
+  lib/glm/glm/gtc/matrix_transform.hpp \
+  lib/glm/glm/gtc/matrix_transform.inl \
+  lib/glm/glm/integer.hpp \
+  lib/glm/glm/mat2x2.hpp \
+  lib/glm/glm/mat2x3.hpp \
+  lib/glm/glm/mat2x4.hpp \
+  lib/glm/glm/mat3x2.hpp \
+  lib/glm/glm/mat3x3.hpp \
+  lib/glm/glm/mat3x4.hpp \
+  lib/glm/glm/mat4x2.hpp \
+  lib/glm/glm/mat4x3.hpp \
+  lib/glm/glm/mat4x4.hpp \
+  lib/glm/glm/matrix.hpp \
+  lib/glm/glm/packing.hpp \
+  lib/glm/glm/trigonometric.hpp \
+  lib/glm/glm/vec2.hpp \
+  lib/glm/glm/vec3.hpp \
+  lib/glm/glm/vec4.hpp \
+  lib/glm/glm/vector_relational.hpp \
   lib/imgui/imconfig.h \
   lib/imgui/imgui.h \
   lib/spdlog/include/spdlog/common-inl.h \
@@ -319,34 +491,57 @@ CMakeFiles/sandbox.dir/src/sandbox/sandbox_app.cc.o: src/sandbox/sandbox_app.cc 
   src/layer.h \
   src/layer_stack.h \
   src/logging.h \
+  src/render/array.h \
   src/render/buf.h \
-  src/render/opengl_shader.h \
+  src/render/cam/orthographic.h \
+  src/render/render_api.h \
+  src/render/render_context.h \
+  src/render/render_utils.h \
+  src/render/renderer.h \
+  src/render/shader.h \
   src/ret_pch.h \
   src/retroengine.h \
+  src/util/time.h \
   src/window.h
 
 
+src/window.h:
+
+src/util/time.h:
+
 src/retroengine.h:
 
-src/ret_pch.h:
+src/render/render_utils.h:
 
 src/render/buf.h:
 
-src/layer.h:
+src/logging.h:
 
-src/event/event.h:
-
-lib/spdlog/include/spdlog/version.h:
-
-lib/spdlog/include/spdlog/tweakme.h:
-
-lib/spdlog/include/spdlog/spdlog.h:
-
-lib/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h:
+src/layer_stack.h:
 
 src/imgui/imgui_layer.h:
 
+src/event/key_event.h:
+
+lib/spdlog/include/spdlog/version.h:
+
+lib/spdlog/include/spdlog/spdlog.h:
+
+lib/spdlog/include/spdlog/spdlog-inl.h:
+
+lib/spdlog/include/spdlog/sinks/sink.h:
+
+lib/spdlog/include/spdlog/sinks/sink-inl.h:
+
+lib/spdlog/include/spdlog/sinks/ansicolor_sink.h:
+
+lib/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h:
+
 lib/spdlog/include/spdlog/pattern_formatter-inl.h:
+
+lib/spdlog/include/spdlog/logger.h:
+
+lib/spdlog/include/spdlog/logger-inl.h:
 
 lib/spdlog/include/spdlog/formatter.h:
 
@@ -358,51 +553,297 @@ lib/spdlog/include/spdlog/fmt/bundled/format-inl.h:
 
 lib/spdlog/include/spdlog/fmt/bundled/core.h:
 
+lib/spdlog/include/spdlog/details/registry.h:
+
 lib/spdlog/include/spdlog/details/registry-inl.h:
 
-lib/spdlog/include/spdlog/pattern_formatter.h:
+lib/spdlog/include/spdlog/details/periodic_worker.h:
+
+lib/spdlog/include/spdlog/details/periodic_worker-inl.h:
+
+lib/spdlog/include/spdlog/details/os-inl.h:
 
 lib/spdlog/include/spdlog/details/null_mutex.h:
 
 lib/spdlog/include/spdlog/details/log_msg_buffer.h:
 
-lib/spdlog/include/spdlog/details/log_msg_buffer-inl.h:
-
 lib/spdlog/include/spdlog/details/log_msg.h:
 
-lib/spdlog/include/spdlog/details/fmt_helper.h:
+lib/spdlog/include/spdlog/details/log_msg-inl.h:
 
 lib/spdlog/include/spdlog/details/console_globals.h:
 
 lib/spdlog/include/spdlog/details/circular_q.h:
 
-src/inp.h:
+lib/spdlog/include/spdlog/details/backtracer.h:
 
-lib/spdlog/include/spdlog/common.h:
+lib/spdlog/include/spdlog/details/backtracer-inl.h:
 
-lib/imgui/imconfig.h:
+src/layer.h:
 
-lib/glad/include/KHR/khrplatform.h:
+lib/imgui/imgui.h:
 
-lib/GLFW/include/GLFW/glfw3.h:
+lib/glm/glm/mat4x3.hpp:
+
+lib/glm/glm/mat3x4.hpp:
+
+lib/glm/glm/mat3x3.hpp:
+
+lib/glm/glm/mat2x4.hpp:
+
+lib/glm/glm/mat2x2.hpp:
+
+lib/glm/glm/gtc/matrix_transform.inl:
+
+lib/glm/glm/gtc/matrix_transform.hpp:
+
+lib/glm/glm/gtc/constants.inl:
+
+lib/glm/glm/vec4.hpp:
+
+lib/glm/glm/vec3.hpp:
+
+lib/glm/glm/integer.hpp:
+
+lib/glm/glm/vec2.hpp:
+
+lib/glm/glm/ext/matrix_projection.hpp:
+
+lib/glm/glm/ext/matrix_clip_space.hpp:
+
+lib/glm/glm/detail/type_vec2.inl:
+
+lib/glm/glm/detail/type_vec3.inl:
+
+src/render/shader.h:
+
+lib/glm/glm/detail/type_mat3x2.inl:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer:
+
+lib/glm/glm/detail/func_trigonometric.inl:
+
+lib/glm/glm/detail/func_integer.inl:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_short.h:
+
+lib/glm/glm/detail/func_exponential.inl:
+
+lib/glm/glm/detail/compute_common.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
+
+lib/glm/glm/vector_relational.hpp:
+
+lib/glm/glm/common.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/float.h:
 
+lib/glm/glm/ext/vector_uint2_sized.hpp:
+
+lib/glm/glm/ext/vector_int4_sized.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/unistd.h:
+
+lib/glm/glm/ext/vector_int2_sized.hpp:
+
+lib/glm/glm/ext/vector_float3_precision.hpp:
+
+lib/glm/glm/ext/matrix_float3x4.hpp:
+
+lib/glm/glm/ext/matrix_double4x4_precision.hpp:
+
+lib/glm/glm/ext/vector_float3.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/__wctype.h:
+
+lib/glm/glm/detail/type_vec1.inl:
+
+lib/glm/glm/ext/vector_float2_precision.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h:
+
+lib/glm/glm/detail/func_geometric.inl:
+
+lib/glm/glm/ext/vector_double3_precision.hpp:
+
+lib/glm/glm/ext/vector_double2_precision.hpp:
+
+lib/glm/glm/ext/vector_double2.hpp:
+
+lib/glm/glm/ext/vector_bool4_precision.hpp:
+
+lib/glm/glm/ext/vector_bool4.hpp:
+
+lib/glm/glm/ext/matrix_float2x4_precision.hpp:
+
+lib/glm/glm/ext/vector_bool3.hpp:
+
+lib/glm/glm/ext/scalar_constants.inl:
+
+lib/glm/glm/detail/type_mat3x4.hpp:
+
+lib/glm/glm/ext/matrix_float4x4_precision.hpp:
+
+lib/glm/glm/ext/matrix_float2x3_precision.hpp:
+
+lib/glm/glm/ext/matrix_float4x4.hpp:
+
+lib/glm/glm/detail/func_vector_relational.inl:
+
+lib/glm/glm/ext/matrix_float4x3_precision.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/mutex:
+
+lib/glm/glm/ext/matrix_float3x2.hpp:
+
+lib/glm/glm/ext/vector_int3_sized.hpp:
+
+lib/glm/glm/ext/matrix_float2x4.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdlib.h:
+
+lib/glm/glm/ext/matrix_float2x2_precision.hpp:
+
+lib/glm/glm/ext/matrix_float2x2.hpp:
+
+lib/glm/glm/ext/matrix_double4x3.hpp:
+
+lib/glm/glm/ext/matrix_double4x2.hpp:
+
+src/event/event.h:
+
+lib/glm/glm/ext/matrix_double3x4_precision.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_clr.h:
+
+lib/glm/glm/ext/matrix_double3x4.hpp:
+
+lib/glm/glm/ext/matrix_double3x3_precision.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h:
+
+lib/glm/glm/ext/matrix_double3x3.hpp:
+
+src/app.h:
+
+lib/glm/glm/detail/type_mat4x3.hpp:
+
+lib/glm/glm/ext/matrix_double3x2.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blkcnt_t.h:
+
+lib/glm/glm/detail/type_half.inl:
+
+lib/glm/glm/ext/vector_double3.hpp:
+
+lib/glm/glm/ext/matrix_double2x4.hpp:
+
+lib/glm/glm/ext/matrix_double2x3_precision.hpp:
+
+src/render/renderer.h:
+
+lib/glm/glm/ext/matrix_double2x2_precision.hpp:
+
+lib/glm/glm/ext/vector_float4_precision.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept:
+
+lib/glm/glm/ext/matrix_double2x2.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types.h:
+
+lib/glm/glm/trigonometric.hpp:
+
+lib/glm/glm/detail/setup.hpp:
+
+lib/glm/glm/matrix.hpp:
+
+lib/glm/glm/gtc/constants.hpp:
+
+lib/spdlog/include/spdlog/details/log_msg_buffer-inl.h:
+
+lib/glm/glm/ext/vector_uint4.hpp:
+
+lib/glm/glm/detail/type_mat4x4.inl:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h:
+
+lib/glm/glm/ext/vector_int2.hpp:
+
+src/render/render_context.h:
+
+lib/glm/glm/ext/scalar_uint_sized.hpp:
+
+lib/spdlog/include/spdlog/common.h:
+
+lib/glm/glm/ext/scalar_int_sized.hpp:
+
+lib/glm/glm/mat4x2.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h:
+
+lib/glm/glm/ext/scalar_constants.hpp:
+
+lib/glm/glm/detail/type_vec4.hpp:
+
 lib/spdlog/include/spdlog/fmt/fmt.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+lib/glm/glm/detail/type_mat2x3.inl:
+
+lib/glm/glm/detail/type_vec3.hpp:
+
+lib/glm/glm/detail/type_vec2.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/float.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ucontext.h:
+
+lib/glm/glm/detail/type_mat4x4.hpp:
+
+lib/glm/glm/detail/type_mat3x2.hpp:
+
+lib/imgui/imconfig.h:
+
+lib/glm/glm/detail/type_mat2x3.hpp:
+
+lib/spdlog/include/spdlog/fmt/bundled/format.h:
+
+lib/glm/glm/detail/type_mat2x2.hpp:
+
+lib/glm/glm/detail/type_half.hpp:
+
+lib/glad/include/KHR/khrplatform.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wctype.h:
 
+lib/glm/glm/simd/platform.h:
+
+lib/glm/glm/detail/type_mat3x3.inl:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wchar.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_time.h:
 
+lib/glm/glm/detail/type_mat4x2.inl:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_string.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/runetype.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_stdio.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wctype.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctype_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/wait.h:
 
@@ -416,35 +857,49 @@ lib/spdlog/include/spdlog/fmt/fmt.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/select.h:
 
-lib/spdlog/include/spdlog/spdlog-inl.h:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/assert.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/fcntl.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/errno.h:
+lib/glm/glm/mat2x3.hpp:
 
-src/app.h:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/errno.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h:
 
-lib/spdlog/include/spdlog/details/periodic_worker-inl.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/appleapiopts.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wint_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_va_list.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uuid_t.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_short.h:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
+
+lib/glm/glm/detail/type_mat4x3.inl:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h:
+
+lib/glm/glm/detail/_vectorize.hpp:
+
+lib/glm/glm/ext/matrix_float4x2.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h:
+
+lib/glm/glm/detail/qualifier.hpp:
+
+lib/glm/glm/ext/vector_bool3_precision.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int.h:
 
@@ -454,33 +909,73 @@ lib/spdlog/include/spdlog/details/periodic_worker-inl.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/signal.h:
+
+lib/glm/glm/ext/vector_uint2.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_char.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigaltstack.h:
 
+lib/glm/glm/ext/vector_double4_precision.hpp:
+
+lib/glm/glm/ext/matrix_double3x2_precision.hpp:
+
+lib/glm/glm/ext/vector_bool2.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_seek_set.h:
 
-src/render/opengl_shader.h:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/gethostuuid.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_pid_t.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_xlocale.h:
+
+lib/glm/glm/ext/matrix_float3x3_precision.hpp:
+
+lib/glm/glm/ext/matrix_projection.inl:
+
+lib/glm/glm/ext/matrix_float4x3.hpp:
+
+lib/glm/glm/ext/matrix_float3x3.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional:
+lib/glm/glm/ext/vector_uint3_sized.hpp:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_nlink_t.h:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_select.h:
+
+lib/glm/glm/ext/matrix_double4x2_precision.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/alloca.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/errno.h:
+
+lib/glm/glm/detail/func_common.inl:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_port_t.h:
+
+lib/glm/glm/detail/compute_vector_relational.hpp:
+
+lib/glm/glm/mat3x2.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_o_sync.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stddef.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef:
 
@@ -490,39 +985,47 @@ src/render/opengl_shader.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_gid_t.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_copy.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_clr.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h:
+lib/glm/glm/ext/vector_uint4_sized.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blksize_t.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blkcnt_t.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_zero.h:
+
+lib/glm/glm/ext/matrix_transform.inl:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h:
 
+lib/glm/glm/ext/matrix_transform.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h:
+lib/glm/glm/ext/vector_double4.hpp:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_select.h:
+lib/glm/glm/ext/vector_float4.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wchar.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cfloat:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_id_t.h:
 
@@ -530,21 +1033,21 @@ src/render/opengl_shader.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wchar_t.h:
 
+src/inp.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_setsize.h:
-
-lib/spdlog/include/spdlog/sinks/sink-inl.h:
-
-lib/spdlog/include/spdlog/details/backtracer-inl.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+
+lib/spdlog/include/spdlog/tweakme.h:
+
+lib/glm/glm/ext/matrix_float3x4_precision.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_off_t.h:
 
@@ -552,7 +1055,11 @@ lib/spdlog/include/spdlog/details/backtracer-inl.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
+lib/glm/glm/ext/matrix_clip_space.inl:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h:
+
+lib/glm/glm/detail/type_mat3x4.inl:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits:
 
@@ -562,17 +1069,17 @@ lib/spdlog/include/spdlog/details/backtracer-inl.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/string.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdlib.h:
-
-lib/spdlog/include/spdlog/details/os.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sched.h:
 
+lib/glm/glm/ext/matrix_double2x4_precision.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/runetype.h:
+lib/glm/glm/mat4x4.hpp:
+
+src/event/app_event.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale.h:
 
@@ -588,31 +1095,35 @@ lib/spdlog/include/spdlog/details/os.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h:
 
-src/entrypoint.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ucontext.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/Availability.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/signal.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/limits.h:
 
+lib/glm/glm/ext/vector_uint3.hpp:
+
+src/render/render_api.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_mcontext.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/endian.h:
+
+lib/glm/glm/geometric.hpp:
+
+lib/spdlog/include/spdlog/details/synchronous_factory.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/locale.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/mach/i386/_structs.h:
 
+src/entrypoint.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/signal.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_o_sync.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar:
 
@@ -622,19 +1133,27 @@ src/entrypoint.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/endian.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_mcontext.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/_limits.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/fcntl.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_key_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/istream:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_filesec_t.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility:
 
@@ -642,21 +1161,41 @@ src/entrypoint.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_set:
 
+lib/glm/glm/ext/vector_int3.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_map:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types.h:
+lib/glm/glm/exponential.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h:
+
+lib/glm/glm/detail/type_mat3x3.hpp:
+
+src/event/mouse_event.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale:
 
+lib/spdlog/include/spdlog/details/fmt_helper.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h:
 
+src/ret_pch.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support:
+
+lib/glm/glm/detail/type_vec1.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/limits.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic:
 
@@ -666,65 +1205,75 @@ src/entrypoint.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack:
 
+lib/glm/glm/detail/type_mat2x2.inl:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/unistd.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem:
+lib/glm/glm/ext/matrix_double4x3_precision.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits:
+
+lib/glm/glm/ext/matrix_float2x3.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uid_t.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional:
+
+lib/glm/glm/fwd.hpp:
+
+lib/glm/glm/detail/type_mat2x4.hpp:
+
+src/key.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_wctype.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/mutex:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timeval.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator:
-
-lib/spdlog/include/spdlog/details/os-inl.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdarg.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_stdlib.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/streambuf:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/types.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/i386/limits.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/assert.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__errc:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream:
+
+lib/glm/glm/detail/type_mat4x2.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h:
 
-src/layer_stack.h:
+lib/glm/glm/ext/matrix_double2x3.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/gethostuuid.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/float.h:
+lib/glm/glm/ext/matrix_double4x4.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios:
 
-lib/spdlog/include/spdlog/sinks/ansicolor_sink.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_port_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros:
 
@@ -734,43 +1283,19 @@ lib/spdlog/include/spdlog/sinks/ansicolor_sink.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/streambuf:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque:
-
-src/event/key_event.h:
+src/render/array.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/float.h:
-
-lib/imgui/imgui.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_key_t.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uid_t.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_set.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_isset.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_o_dsync.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib:
-
-src/event/mouse_event.h:
-
-lib/spdlog/include/spdlog/details/periodic_worker.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdio.h:
 
@@ -778,25 +1303,29 @@ lib/spdlog/include/spdlog/details/periodic_worker.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_suseconds_t.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/condition_variable:
 
-src/event/app_event.h:
+lib/glm/glm/ext/matrix_float4x2_precision.hpp:
 
-lib/spdlog/include/spdlog/fmt/bundled/format.h:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_posix_vdisable.h:
 
+lib/spdlog/include/spdlog/common-inl.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_ctype.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/float.h:
+
+lib/spdlog/include/spdlog/details/os.h:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/thread:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_caddr_t.h:
 
@@ -806,41 +1335,21 @@ lib/spdlog/include/spdlog/fmt/bundled/format.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream:
+lib/glm/glm/glm.hpp:
+
+lib/glm/glm/ext/matrix_float3x2_precision.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_endian.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_xlocale.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/limits.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/errno.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctype_t.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h:
-
-lib/spdlog/include/spdlog/details/log_msg-inl.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timeval.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo:
+lib/glm/glm/detail/func_matrix.inl:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_dev_t.h:
 
@@ -848,81 +1357,69 @@ lib/spdlog/include/spdlog/details/log_msg-inl.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h:
+
+lib/glm/glm/ext/vector_bool2_precision.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__mutex_base:
 
-lib/spdlog/include/spdlog/details/registry.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h:
+lib/glm/glm/detail/type_mat2x4.inl:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_s_ifmt.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h:
 
+lib/glm/glm/detail/func_packing.inl:
+
+lib/glm/glm/ext/vector_float2.hpp:
+
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/signal.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
-
-lib/spdlog/include/spdlog/sinks/sink.h:
-
-lib/spdlog/include/spdlog/details/synchronous_factory.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 lib/glad/include/glad/glad.h:
 
+lib/glm/glm/packing.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/resource.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/signal.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple:
 
 src/sandbox/sandbox_app.cc:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h:
 
-src/window.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h:
 
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_nlink_t.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
-
-lib/spdlog/include/spdlog/logger.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctrans_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/limits.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config:
 
-lib/spdlog/include/spdlog/common-inl.h:
+src/render/cam/orthographic.h:
+
+lib/glm/glm/detail/type_vec4.inl:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_useconds_t.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_locale.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h:
-
-src/key.h:
+/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h:
 
@@ -932,42 +1429,28 @@ src/key.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/libkern/_OSByteOrder.h:
 
-lib/spdlog/include/spdlog/details/backtracer.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h:
+lib/glm/glm/detail/_fixes.hpp:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h:
 
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream:
-
-src/logging.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wchar.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd:
 
-lib/spdlog/include/spdlog/logger-inl.h:
-
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string:
 
+lib/spdlog/include/spdlog/pattern_formatter.h:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdint.h:
 
+lib/glm/glm/ext/vector_int4.hpp:
+
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__errc:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/__wctype.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/xlocale.h:
 
 /Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_ctermid.h:
-
-/Applications/XCode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits:
